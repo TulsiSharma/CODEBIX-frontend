@@ -134,11 +134,12 @@ class Files extends React.Component{
         // console.table(this.state.savefiles);  
     }
     editfile=(val)=>{
-        const win=window.open(`/files/${btoa(this.state.uid)}/${val}`,'_blank');
-        if(win){
-            win.focus();
-        }
-        base.removeBinding(this.ref);
+        // const win=window.open(`/files/${btoa(this.state.uid)}/${val}`,'_blank');
+        // if(win){
+        //     win.focus();
+        // }
+        // this.props.history.push(`/files/${btoa(this.state.uid)}/${val}`);
+        // base.removeBinding(this.ref);
 
     }
     setid=(val)=>{
